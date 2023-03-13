@@ -8,12 +8,8 @@ import Home from "./components/Home/Home.js";
 function App() {
   return (
     <>
-      <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
-    </Router>
-    <ToastContainer/>
+      <Home></Home>
+      <ToastContainer />
     </>
   );
 }
