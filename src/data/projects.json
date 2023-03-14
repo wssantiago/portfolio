@@ -8,23 +8,38 @@
     },
     {
         "title": "2022 SISU registrations analysis",
-        "description": "This Jupyter Notebook refers to a general overview regarding how the 2022 SISU successful candidates, as well as their grades by area of ​​knowledge, are distributed throughout Brazil. It is possible to take a look at all that using the most popular Python libraries for data visualisation.",
+        "description": "This Jupyter Notebook refers to a general overview regarding how the 2022 SISU successful candidates, as well as their grades by area of ​​knowledge, are distributed throughout Brazil.",
         "image": 2,
         "url": "https://github.com/wssantiago/sisu-2022",
         "tech": "Pandas and Seaborn."
     },
     {
+        "title": "Binary classification model",
+        "description": "A credit granting risk model for deciding wheter to grant the requested credit to a client. The datasets used were analysed in an exploratory way and also visualised before model training.",
+        "image": 3,
+        "url": "https://github.com/wssantiago/credit-granting",
+        "tech": "Pandas, Seaborn, NumPy and scikit-learn"
+    },
+    {
+        "title": "API for ML model monitoring",
+        "description": "An API implemented in python for volumetry and model score monitoring, as well as datasets adherence. The endpoint are specified in the repository.",
+        "image": 4,
+        "url": "https://github.com/wssantiago/model-monitoring",
+        "tech": "FastAPI and scikit-learn"
+    },
+    {
         "title": "A data visualiser",
         "description": "A web application for graphical visualization of the formatted input data. It is a simple but complete client server application to consolidate the knowledges surrounding web development.",
-        "image": 3,
+        "image": 5,
         "url": "https://github.com/wssantiago/data-visualizer",
         "tech": "React and Node.js"
     },
     {
         "title": "A password manager",
         "description": "An application that allows managing various login and password data and registering them RSA-encrypted into an SQL database, using the python sqlite3 module, through an interactive python tkinter GUI.",
-        "image": 4,
+        "image": 6,
         "url": "https://github.com/wssantiago/password-manager",
         "tech": "Python and SQL"
     }
+
 ]

@@ -102,6 +102,7 @@ export default function Home() {
           <Grid container spacing={8} alignItems="stretch">
             <GridRow data={projects.slice(0, 2)}></GridRow>
             <GridRow data={projects.slice(2, 4)}></GridRow>
+            <GridRow data={projects.slice(4, 6)}></GridRow>
           </Grid>
         </Box>
       </MainContainer>
