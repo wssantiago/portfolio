@@ -5,8 +5,9 @@ import {
   PresentationName,
   PresentationCourse,
   PresentationContainer,
-  ProjectsContainer,
   PortfolioHeader,
+  Footer,
+  FooterContent,
 } from "./Home.styles";
 import Avatar from "@mui/material/Avatar";
 import Grid from "@mui/material/Grid";
@@ -74,6 +75,8 @@ function GridRow(props) {
 }
 
 export default function Home() {
+  const [value, setValue] = React.useState(0);
+  console.log(value);
   return (
     <div>
       <MainContainer>
@@ -105,6 +108,15 @@ export default function Home() {
             <GridRow data={projects.slice(4, 6)}></GridRow>
           </Grid>
         </Box>
+        <Footer>
+          <FooterContent href="mailto:wssf@cin.ufpe.br">e-mail</FooterContent>
+          <FooterContent href="https://www.linkedin.com/in/wssf01/">
+            LinkedIn
+          </FooterContent>
+          <FooterContent href="https://github.com/wssantiago">
+            GitHub
+          </FooterContent>
+        </Footer>
       </MainContainer>
     </div>
   );
