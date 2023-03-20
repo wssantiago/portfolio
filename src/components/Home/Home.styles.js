@@ -58,7 +58,7 @@ const FooterContent = styled.a`
   color: white;
   margin: 4%;
   text-decoration: none;
-  transition: all 0.35s ease-in-out, box-shadow 0.35s ease-in-out;
+  transition: all 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
   &:hover {
     color: #80aff2;
     text-decoration: underline;

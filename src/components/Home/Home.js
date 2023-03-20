@@ -106,6 +106,7 @@ export default function Home() {
             <GridRow data={projects.slice(0, 2)}></GridRow>
             <GridRow data={projects.slice(2, 4)}></GridRow>
             <GridRow data={projects.slice(4, 6)}></GridRow>
+            <GridRow data={projects.slice(6, 8)}></GridRow>
           </Grid>
         </Box>
         <Footer>
