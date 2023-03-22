@@ -35,23 +35,30 @@
         "tech": "React and Node.js"
     },
     {
+        "title": "ResNet50 and image compression",
+        "description": "The ResNet50 model from tensorflow has its performance tested in this project. Using the K-Means unsupervised learning algorithm, this model behaviour is analysed while classifying k-clustered compressed images.",
+        "image": 6,
+        "url": "https://github.com/wssantiago/resnet50-img-compression",
+        "tech": "Tensorflow, scikit-learn and Seaborn"
+    },
+    {
         "title": "Autonomous Search Agent",
         "description": "This p5.js project visually represents this autonomous agent whose purpose is to seek the food inside a completely observable environment considering the most common searching algorithms.",
-        "image": 6,
+        "image": 7,
         "url": "https://github.com/mateuseap/projeto-si",
         "tech": "p5.js"
     },
     {
         "title": "A password manager",
         "description": "An application that allows managing various login and password data and registering them RSA-encrypted into an SQL database, using the python sqlite3 module, through an interactive python tkinter GUI.",
-        "image": 7,
+        "image": 8,
         "url": "https://github.com/wssantiago/password-manager",
         "tech": "Python and SQL"
     },
     {
         "title": "A relational database",
         "description": "This SQL project stands for managing students and professors' data while members of an university. The final model implements both DDL and DML statements.",
-        "image": 8,
+        "image": 9,
         "url": "https://github.com/wssantiago/FOLLOW-GDI",
         "tech": "SQL"
     }
