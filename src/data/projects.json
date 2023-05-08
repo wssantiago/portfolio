@@ -61,5 +61,26 @@
         "image": 9,
         "url": "https://github.com/wssantiago/FOLLOW-GDI",
         "tech": "SQL"
+    },
+    {
+        "title": "Multilayer Perceptron",
+        "description": "A neural network built for predicting lower back pain diagnosis. EDA is also performed over the dataset before applying the machine learning algorithm.",
+        "image": 10,
+        "url": "https://github.com/wssantiago/multilayer-perceptron",
+        "tech": "Pandas, Seaborn and scikit-learn"
+    },
+    {
+        "title": "Decision Tree classifier",
+        "description": "A decision tree trained and fine-tuned using GridSearchCV for predicting deceaseds in a ship accident. EDA is also performed over the dataset before applying the pipeline.",
+        "image": 11,
+        "url": "https://github.com/mateuseap/decision-tree",
+        "tech": "Pandas, Seaborn and scikit-learn"
+    },
+    {
+        "title": "K-Means clustering algorithm",
+        "description": "This unsupervised learning algorithm aims to cluster universities into K groups. Different metrics are applied for deciding the value of K and PCA is implemented for enabling cluster visualization.",
+        "image": 12,
+        "url": "https://github.com/wssantiago/k-means-clustering/",
+        "tech": "Pandas, Seaborn and scikit-learn"
     }
 ]
